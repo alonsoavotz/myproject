@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactsController;
 use App\Http\Controllers\UsersController;
 use App\Models\User;
 use Illuminate\Support\Facades\Route;
@@ -20,3 +21,4 @@ Route::get('/', function () {
 });
 
 Route::post('/users', [UsersController::class, 'store']);
+Route::post('/contacts', [ContactsController::class, 'store']);
