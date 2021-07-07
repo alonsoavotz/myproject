@@ -50,6 +50,9 @@
                    {{-- <livewire:counter /> --}}
                    <h2>Livewire Example</h2>
                    <livewire:list-todo />
+
+
+                   texto de ejemplo
                 </div>
             </div>
     
